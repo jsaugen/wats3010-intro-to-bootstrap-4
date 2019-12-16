@@ -20,11 +20,8 @@
 
 <body>
   <!--Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="deepblue-Shark">
-      </a>
       <a class="navbar-brand" href="index.html">DeepBlue</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -57,8 +54,6 @@
       </ol>
 
       <!-- Wrapper for slides -->
-
-
       <div class="carousel-inner" role="listbox">
         <!-- Slide One -  -->
         <div class="carousel-item active" style="background-image: url('images/Carousel/3.JPG')">
@@ -95,17 +90,12 @@
 
   <!-- Page Content -->
   <div class="container">
-    <h1 class="my-4">Experience DeepBlue</h1>
+
     <!-- /.row -->
 
 
     <!-- Portfolio Section -->
-    <!-- (3)TODO: Add the proper "row" and "col" classes to make this display work the way it should. -->
-    <!-- This section shoudld be contained in a row. -->
-    <!-- This section should have columns that are 4 units wide at size "md" and above, but 6 units wide at size "sm" and below. -->
-
     <h2></h2>
-
     <div class="row">
       <div class="portfolio-item col-sm-6 col-md-4">
         <div class="card h-100">
@@ -195,7 +185,8 @@
             <h4 class="card-title">
               <a href="#">Beach Paradise</a>
             </h4>
-            <p class="card-text">Nothing But Smiles and Good Times Aboard Our Boat With Our Certified and Dedicated Crew</p>
+            <p class="card-text">Nothing But Smiles and Good Times Aboard Our Boat With Our Certified and Dedicated Crew
+            </p>
           </div>
         </div>
       </div>
@@ -207,14 +198,12 @@
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-      <!-- (4)TODO User flex-box to replace the centered paragraph with copyright and date with 2 paragraphs: the first paragraph is left aligned and contains copyright and date 
-      and one that is right aligned and contains your name.
-      Put the footer on every page.
-    -->
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Jessica Saugen 2020</p>
+        <div class="footer-flex">
+          <p class="footer-item-flex text-white">Copyright &copy; DeepBlue Excursions 2020</p>
+          <p class="footer-item-flex text-white">Jessica Saugen</p>
+        </div>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
